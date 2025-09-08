@@ -1,0 +1,88 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+/* Header Logo */
+.header {
+  text-align: left;
+  padding: 20px;
+}
+
+.logo {
+  height: 120px;
+}
+
+/* Container */
+.container {
+  margin-top: 20px;
+}
+
+/* Loan Approval Text */
+.loan-approval {
+  font-size: 29px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
+
+.loan-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;   /* Black color */
+  margin: 5px 0 15px 0;
+}
+
+/* Plan Heading */
+.plan {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Tabs */
+.tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 20px;  
+}
+
+.tabs span.active {
+  border-bottom: 2px solid red;
+  color: black;
+}
+
+/* Input Label */
+.light-text {
+  margin-top: 20px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Loan Amount Input Style */
+.amount {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;   /* Black color */
+}
+
+.underline {
+  width: 250px;
+  margin: 0 auto;
+  border: 0.5px solid #ddd;
+}
+
+/* ROI */
+.roi {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
